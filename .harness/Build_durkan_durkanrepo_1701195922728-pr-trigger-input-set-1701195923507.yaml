@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_durkan_durkanrepo_1701195922728-pr-trigger-input-set
+  identifier: Build_durkan_durkanrepo_1701195922728prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_durkan_durkanrepo_1701195922728
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
