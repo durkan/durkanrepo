@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_durkan_durkanrepo_1701195922728-push-trigger-input-set
+  identifier: Build_durkan_durkanrepo_1701195922728pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_durkan_durkanrepo_1701195922728
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
